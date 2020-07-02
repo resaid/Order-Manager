@@ -1,0 +1,35 @@
+{
+  "name": "iwd/ordermanager-free",
+  "type": "magento2-module",
+  "description": "IWD Order Manager",
+  "version": "4.0.0",
+  "keywords": ["relevant","tags","go","here"],
+  "homepage": "https://www.iwdagency.com/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Strutovskiy",
+      "email": "alexs@iwdagency.com",
+      "homepage": "https://www.iwdagency.com/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "IWD\\OrderManager\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "require": {
+    "magento/module-backend": "~100.1.0",
+    "magento/module-sales": "~100.1.0"
+  }
+}
