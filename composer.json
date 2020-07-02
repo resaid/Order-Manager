@@ -27,9 +27,5 @@
       "type": "composer",
       "url": "https://repo.magento.com/"
     }
-  ],
-  "require": {
-    "magento/module-backend": "~100.1.0",
-    "magento/module-sales": "~100.1.0"
-  }
+  ]
 }
