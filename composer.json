@@ -1,5 +1,5 @@
 {
-  "name": "iwdagency/ordermanager-free",
+  "name": "iwd/ordermanager",
   "type": "magento2-module",
   "description": "IWD Order Manager",
   "version": "4.0.0",
