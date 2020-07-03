@@ -1,18 +1,10 @@
 {
   "name": "iwd/ordermanager",
-  "type": "magento2-module",
   "description": "IWD Order Manager",
+  "type": "magento2-module",
   "version": "4.0.0",
-  "keywords": ["relevant","tags","go","here"],
-  "homepage": "https://www.iwdagency.com/",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Alex Strutovskiy",
-      "email": "alexs@iwdagency.com",
-      "homepage": "https://www.iwdagency.com/",
-      "role": "Developer"
-    }
+  "license": [
+    "proprietary"
   ],
   "autoload": {
     "files": [
@@ -21,24 +13,5 @@
     "psr-4": {
       "IWD\\OrderManager\\": ""
     }
-  },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://repo.magento.com/",
-      "version": "4.0.0"
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "iwd/ordermanager",
-        "version": "4.0.0"
-      }
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/alexsiwdagency/Order-Manager.git"
-    }
-  ],
-  "minimum-stability": "stable"
+  }
 }
