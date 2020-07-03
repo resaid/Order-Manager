@@ -21,11 +21,5 @@
     "psr-4": {
       "IWD\\OrderManager\\": ""
     }
-  },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://repo.magento.com/"
-    }
-  ]
+  }
 }
