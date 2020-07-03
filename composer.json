@@ -2,6 +2,7 @@
   "name": "iwd/ordermanager",
   "type": "magento2-module",
   "description": "IWD Order Manager",
+  "version": "4.0.0",
   "keywords": ["relevant","tags","go","here"],
   "homepage": "https://www.iwdagency.com/",
   "license": "MIT",
@@ -24,7 +25,16 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "https://repo.magento.com/"
+      "url": "https://repo.magento.com/",
+      "version": "4.0.0"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "smarty/smarty",
+        "version": "4.0.0"
+      }
     }
-  ]
+  ],
+  "minimum-stability": "stable"
 }
