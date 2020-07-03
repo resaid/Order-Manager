@@ -29,6 +29,6 @@
     }
   ],
   "require": {
-    "vendor/package": "4.0.0"
+    "iwd/ordermanager": "4.0.0"
   }
 }
