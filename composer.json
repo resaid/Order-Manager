@@ -2,7 +2,6 @@
   "name": "iwd/ordermanager",
   "type": "magento2-module",
   "description": "IWD Order Manager",
-  "version": "4.0.0",
   "keywords": ["relevant","tags","go","here"],
   "homepage": "https://www.iwdagency.com/",
   "license": "MIT",
@@ -28,7 +27,4 @@
       "url": "https://repo.magento.com/"
     }
   ],
-  "require": {
-    "iwd/ordermanager": "4.0.0"
-  }
 }
