@@ -34,6 +34,10 @@
         "name": "iwd/ordermanager",
         "version": "4.0.0"
       }
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/alexsiwdagency/Order-Manager.git"
     }
   ],
   "minimum-stability": "stable"
