@@ -31,7 +31,7 @@
     {
       "type": "package",
       "package": {
-        "name": "smarty/smarty",
+        "name": "iwd/ordermanager",
         "version": "4.0.0"
       }
     }
