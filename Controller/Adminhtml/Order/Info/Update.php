@@ -40,13 +40,12 @@ class Update extends AbstractAction
         PageFactory $resultPageFactory,
         OrderRepositoryInterface $orderRepository,
         \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig,
-        \Magento\Framework\Message\ManagerInterface $messageManager,
         OrderData $orderData
     ) {
         parent::__construct($context, $resultPageFactory, $orderRepository,$scopeConfig);
         $this->orderData = $orderData;
         $this->scopeConfig = $scopeConfig;
-        $this->messageManager = $messageManager;
+        $this->messageManager = $context->getMessageManager();
     }
 
     /**
