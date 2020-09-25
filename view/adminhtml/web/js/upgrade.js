@@ -37,16 +37,7 @@ define([
                     '</ul>',
                     modalClass: "iwd-order-manager-unlock-pro",
                     clickableOverlay: false,
-                    buttons:[
-                        {
-                            text: '<i class="fa fa-lock"></i>Unlock Pro',
-                            click: function() {
-                                this.closeModal();
-                                var win = window.open('https://www.iwdagency.com/extensions/magento-2-edit-order-manager.html?add', '_blank');
-                                win.focus();
-                            }
-                        }
-                    ]
+                    buttons:[]
                 })
             }
         });
